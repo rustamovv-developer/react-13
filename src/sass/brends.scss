@@ -1,0 +1,27 @@
+.brends {
+  padding-bottom: 150px;
+  &__top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 60px;
+  }
+  &__loading {
+    max-width: 127px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 67px;
+    color: #fff;
+  }
+  &__img {
+    padding: 28px 46px;
+  }
+  &__left {
+    border-left: 1px solid #635f5f;
+  }
+  &__btm {
+    border-bottom: 1px solid #635f5f;
+  }
+}

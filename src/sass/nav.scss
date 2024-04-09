@@ -1,0 +1,28 @@
+.nav {
+  padding: 40px 80px;
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+  }
+  &__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+  }
+  &__btn {
+    padding: 10px 30px;
+    background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+    color: #ffffff;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

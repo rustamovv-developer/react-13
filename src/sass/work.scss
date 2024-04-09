@@ -1,0 +1,43 @@
+.work {
+  padding-bottom: 200px;
+  &__h2 {
+    text-align: center;
+    margin-bottom: 120px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 67px;
+    color: #fff;
+  }
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  &__img {
+    max-width: 100px;
+    margin-bottom: 60px;
+  }
+  &__title {
+    max-width: 416px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 30px;
+  }
+  &__text {
+    max-width: 358px;
+    color: #fff;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
