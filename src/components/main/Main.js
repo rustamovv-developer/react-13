@@ -4,6 +4,7 @@ import Pc from "../pc/Pc";
 import Work from "../work/Work";
 import Brends from "../brends/Brends";
 import Program from "../program/Program";
+import Users from "../users/Users";
 
 export default class Main extends Component {
   render() {
@@ -14,6 +15,7 @@ export default class Main extends Component {
         <Work />
         <Brends />
         <Program />
+        <Users />
       </main>
     );
   }

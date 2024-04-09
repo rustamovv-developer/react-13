@@ -1,0 +1,98 @@
+.program {
+  padding-bottom: 170px;
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__img {
+      max-width: 100px;
+      margin-bottom: 70px;
+    }
+    &__title {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 67px;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+    &__text {
+      text-align: center;
+      max-width: 411px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 25px;
+      margin-bottom: 80px;
+    }
+  }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 87px;
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
+  }
+  &__card {
+    max-width: 228px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    &__h3 {
+      color: #fff;
+      opacity: 0.5;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    &__title {
+      max-width: 228px;
+      text-align: end;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: #fff;
+    }
+  }
+  &__box {
+    max-width: 228px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    &__h3 {
+      color: #fff;
+      opacity: 0.5;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    &__title {
+      max-width: 228px;
+      text-align: start;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: #fff;
+    }
+  }
+  &__center {
+    width: 6px;
+    height: 677px;
+    background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+  }
+}
